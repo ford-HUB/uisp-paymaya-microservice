@@ -4,11 +4,11 @@
 ---
 
 ## 1. Project Overview
-This microservice serves as a secure middleware to integrate **PayMaya** payment processing with the **UISP (Ubiquiti ISP)** management system. It automates the workflow from invoice generation to payment reconciliation.
+This microservice serves as a secure middleware to integrate **PayMaya** payment processing with the **UISP** management system. It automates the workflow from invoice generation to payment reconciliation.
 
 ## 2. System Architecture
 ### 2.1 Logical Flow
-1. **Customer** → Clicks Payment Link from UISP Invoice.
+1. **Customer** → Clicks Payment Link from Invoice.
 2. **Payment Microservice** → Validates request and creates PayMaya Session.
 3. **PayMaya** → Processes payment (E-wallet/Card).
 4. **Webhook** → PayMaya notifies Microservice of success/failure.
