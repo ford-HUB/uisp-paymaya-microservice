@@ -1,5 +1,4 @@
 # Software Requirements Specification (SRS)
-## Project: PayMaya-UISP Payment Gateway Microservice
 
 ---
 
